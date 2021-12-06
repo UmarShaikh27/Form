@@ -1,0 +1,52 @@
+.maindiv{
+    min-height: 100vh;
+    background-color: #78A1BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginForm{
+    padding: 25px;
+    /* background-color: #EBF5EE; */
+    width: 40%;
+    background: #EBF5EE;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+  
+}
+.loginForm > div{
+    display: flex;
+    justify-content: center;
+}
+.form-control{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.form-control:focus{
+    outline: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.chick{
+    font-size: 25px;
+}
+.chick:hover{
+    cursor: pointer;
+    color: #78A1BB;
+}
+.loginbtn{
+    font-size: 20px;
+}
+@media screen and (max-width : 800px){
+    .loginForm{
+        width: 60%;
+    }
+}
+@media screen and (max-width : 500px){
+    .loginForm{
+        width: 100%;
+    }
+}
